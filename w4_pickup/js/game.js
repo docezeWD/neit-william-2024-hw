@@ -137,12 +137,6 @@ function main()
     -----------------------------------*/
     ctx.font = "64px Arial";
     ctx.fillText(score,40,60);
-    if(score==(amt) && avatar.color == `cyan`){
-        ctx.fillText("SECRET WIN CONDITION?!",400,250)
-    }
-    if(score>=(amt+1)){
-        ctx.fillText("You win!",400,250);
-    }
 }
 
 //random number generator
